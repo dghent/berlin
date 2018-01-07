@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1d1d1d; }
+  background-color: #1d1d1d;
+  font-family: "Proxima Nova Condensed Light", sans-serif; }
 
 #intro {
   -webkit-transition: color 0.1s linear;
@@ -33,7 +34,6 @@ body {
       padding-bottom: 64px; } }
   #intro .title {
     color: #424242;
-    font-family: "Proxima Nova Condensed Light", sans-serif;
     font-size: 32px;
     font-weight: 100;
     padding-bottom: 0; }
@@ -132,4 +132,9 @@ img {
   to {
     opacity: 1; } }
 
-/*# sourceMappingURL=styles.css.map */
+a:active, a:visited {
+color: #424242;
+}
+a:hover, a:focus {
+  color: #FFF;
+  transition: 0.3s; }
